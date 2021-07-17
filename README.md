@@ -19,12 +19,12 @@ There will be two channels, one stable and one nightly. It is always ideal to us
 Copy this code into Dashboard > General > Custom CSS
 #### Stable:
 ```css
-@import url("https://raw.githubusercontent.com/looi-wh/HintOfGreenCSS/main/theme.css");
+@import url('https://looi-wh.github.io/HintOfGreenCSS/theme.css');
 ```
 or
 #### Tester/Nightly:
 ```css
-@import url("https://raw.githubusercontent.com/looi-wh/HintOfGreenCSS/main/themeNightly.css");
+@import url('https://looi-wh.github.io/HintOfGreenCSS/themeNightly.css');
 ```
 
 ## To enable fanart/logo
