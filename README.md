@@ -27,6 +27,15 @@ or
 @import ur("https://raw.githubusercontent.com/looi-wh/HintOfGreenCSS/main/themeNightly.css");
 ```
 
+## To enable fanart/logo
+- Install the Fanart plugin first
+- Go to Dashboard > Library
+- For each library you have, go to Manage Library
+- Enable Fanart for image fetcher
+- Then go to Fetcher Settings and select "Logo"
+- Manually scan media library
+- Refresh the page once done
+
 ## NGINX fixes
 If you are using nginx as a reverse proxy for Jellyfin, replace the "add_header Content-Security-Policy" in your nginx config with this line below
 ```
