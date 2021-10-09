@@ -1,5 +1,5 @@
 # Hint of Green
-## Jellyfin CSS Theme
+Jellyfin CSS Theme
 
 Sort of my first try on a css template. When I first designed this template, I tried my best to design something new but familar. I wanted something that is different from the other masterpiece that the other wizards have created.
 
@@ -7,7 +7,7 @@ Sort of my first try on a css template. When I first designed this template, I t
 - Colours are based on a popular template
 - Little spinkle of green everywhere, but never too much
 - Lighter theme for video playback (better if you see for yourself)
-- Disabled blurring on Safari (performance issues)
+- Disabled blurring on Safari (browser performance issues)
 - Better support for mobile devices
 - Works extremely beautiful with backdrop enabled
 - Some playful colouring at unexpected places (you will like it)
