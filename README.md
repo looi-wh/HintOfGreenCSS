@@ -46,6 +46,5 @@ If you are using nginx as a reverse proxy for Jellyfin, replace the "add_header 
 add_header Content-Security-Policy "default-src https: data: blob: http://image.tmdb.org; style-src 'self' 'unsafe-inline' https://looi-wh.github.io ; script-src 'self' 'unsafe-inline' https://www.gstatic.com/cv/js/sender/v1/cast_sender.js https://www.youtube.com blob:; worker-src 'self' blob:; connect-src 'self'; object-src 'none'; frame-ancestors 'self'";
 ```
 
-## Note to self
-Its been a busy week, so some notes might be important later on
-- Add images later to this readme
+## Images
+![alt text](./Images/1-LoginPage.png)
