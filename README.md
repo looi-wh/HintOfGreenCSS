@@ -3,6 +3,10 @@ Jellyfin CSS Theme
 
 Sort of my first try on a css template. When I first designed this template, I tried my best to design something new but familar. I wanted something that is different from the other masterpiece that the other wizards have created.
 
+## Tested on
+- Chrome, Firefox, Safari and common Jellyfin applications
+- Jellyfin 10.6 - 10.7.7
+
 ## Features
 - Colours are based on a popular template
 - Little spinkle of green everywhere, but never too much
