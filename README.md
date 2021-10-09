@@ -47,4 +47,53 @@ add_header Content-Security-Policy "default-src https: data: blob: http://image.
 ```
 
 ## Images
+Login Page
 ![alt text](./Images/1-LoginPage.png)
+
+Home Page
+![alt text](./Images/2-HomePage.png)
+
+Home Page 2
+![alt text](./Images/3-HomePage2.jpg)
+
+Home Page 3
+![alt text](./Images/4-HomePage3.png)
+
+KDrama
+![alt text](./Images/5-KDrama.jpg)
+
+Item Details
+![alt text](./Images/6-ItemDetails.png)
+
+Item Details 2
+![alt text](./Images/7-ItemDetails2.png)
+
+Item Details 3
+![alt text](./Images/8-ItemDetails3.png)
+
+Item Details 4
+![alt text](./Images/9-ItemDetails4.png)
+
+Item Details 5 (No Fan Art)
+![alt text](./Images/10-ItemDetails5(NoFanArt).png)
+
+More Like This
+![alt text](./Images/11-MoreLikeThis.png)
+
+Episode Lists
+![alt text](./Images/12-EpisodeLists.png)
+
+Playback
+![alt text](./Images/13-Playback.png)
+
+DashBoard
+![alt text](./Images/14-Dashboard.png)
+
+DashBoard Library
+![alt text](./Images/15-DashboardLibrary.png)
+
+DashBoard DLNA
+![alt text](./Images/16-DashboardDLNA.png)
+
+HomePage Safari (No Backdrop, due to poor browser blurring support)
+![alt text](./Images/17-HomePage(Safari).jpg)
