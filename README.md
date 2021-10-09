@@ -50,19 +50,19 @@ add_header Content-Security-Policy "default-src https: data: blob: http://image.
 Login Page
 ![alt text](./Images/1-LoginPage.png)
 
-Home Page
+Home Page - rounded corners and slight shadow for looks
 ![alt text](./Images/2-HomePage.png)
 
-Home Page 2
+Home Page 2 - vertical listing instead of horizontal
 ![alt text](./Images/3-HomePage2.jpg)
 
-Home Page 3
+Home Page 3 - green accenting
 ![alt text](./Images/4-HomePage3.png)
 
 KDrama
 ![alt text](./Images/5-KDrama.jpg)
 
-Item Details
+Item Details - large item picture at the left to entice user and item description on the right for more details
 ![alt text](./Images/6-ItemDetails.png)
 
 Item Details 2
@@ -74,19 +74,19 @@ Item Details 3
 Item Details 4
 ![alt text](./Images/9-ItemDetails4.png)
 
-Item Details 5 (No Fan Art)
+Item Details 5 (No Fan Art) - an example if fan art isnt enabled
 ![alt text](./Images/10-ItemDetails5(NoFanArt).png)
 
-More Like This
+More Like This - example
 ![alt text](./Images/11-MoreLikeThis.png)
 
-Episode Lists
+Episode Lists - smaller height picture for a more compressed look
 ![alt text](./Images/12-EpisodeLists.png)
 
-Playback
+Playback - top and bottom transparency with slight shadow gradient for a more morden feel
 ![alt text](./Images/13-Playback.png)
 
-DashBoard
+DashBoard - different shades of green accenting so it wont look boring
 ![alt text](./Images/14-Dashboard.png)
 
 DashBoard Library
@@ -95,5 +95,5 @@ DashBoard Library
 DashBoard DLNA
 ![alt text](./Images/16-DashboardDLNA.png)
 
-HomePage Safari (No Backdrop, due to poor browser blurring support)
+HomePage Safari - No Backdrop, due to poor browser blurring support
 ![alt text](./Images/17-HomePage(Safari).jpg)
