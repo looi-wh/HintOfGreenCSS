@@ -9,18 +9,15 @@ Hint of Green is my first attempt at a Jellyfin CSS theme. The goal was to creat
 As of **November 2025**, this theme has been updated to support the latest version of Jellyfin.
 
 ## Compatibility
-
 - Tested on **Chrome**, **Firefox**, **Safari**, and common Jellyfin applications
 - Compatible with **Jellyfin 10.11.2** and later
 
 ## Features
-
 - Inspired by the palette of a well-known community theme, with its own unique twist
-- Subtle green accents used sparingly for a clean, modern look
-- Improved layout and responsiveness for mobile devices
 - Looks especially good with **backdrops enabled**
+- Designed with support for IAmParadox27's Media Bar plugin
 
-> Note: Earlier experimental color and video playback variations have been removed or refined to keep the experience consistent and lightweight.
+> Note: Earlier theme color and video playback variations have been removed or refined to keep the experience consistent and lightweight. There are plans to add colour theming in the near future.
 
 ## Installation
 There will be two channels, one stable and one nightly. It is always ideal to use the stable version if you are deploying to a large amount of people. But if you like to be risky, feel free to use the nightly version. I will merge nightly into stable once I feel the nightly version is performing well enough.
