@@ -1,20 +1,26 @@
 # Hint of Green
-Jellyfin CSS Theme
 
-Sort of my first try on a css template. When I first designed this template, I tried my best to design something new but familar. I wanted something that is different from the other masterpiece that the other wizards have created.
+A clean, subtle Jellyfin CSS theme with a familiar feel and a modern twist.
 
-## Tested on
-- Chrome, Firefox, Safari and common Jellyfin applications
-- Jellyfin 10.11.2
+## Overview
+
+Hint of Green is my first attempt at a Jellyfin CSS theme. The goal was to create something fresh, something nice to use everyday.
+
+As of **November 2025**, this theme has been updated to support the latest version of Jellyfin.
+
+## Compatibility
+
+- Tested on **Chrome**, **Firefox**, **Safari**, and common Jellyfin applications
+- Compatible with **Jellyfin 10.11.2** and later
 
 ## Features
-- Colours are based on a popular template
-- Little spinkle of green everywhere, but never too much (UPDATE: temporarily removed all colours)
-- Lighter theme for video playback (better if you see for yourself) (UPDATE: removed, no longer neccessary)
-- Better support for mobile devices (UPDATE: updated)
-- Works extremely beautiful with backdrop enabled
 
-This theme can be considered as heavy, but of course there some css will disable by itself if certain unfavourable conditions are met.
+- Inspired by the palette of a well-known community theme, with its own unique twist
+- Subtle green accents used sparingly for a clean, modern look
+- Improved layout and responsiveness for mobile devices
+- Looks especially good with **backdrops enabled**
+
+> Note: Earlier experimental color and video playback variations have been removed or refined to keep the experience consistent and lightweight.
 
 ## Installation
 There will be two channels, one stable and one nightly. It is always ideal to use the stable version if you are deploying to a large amount of people. But if you like to be risky, feel free to use the nightly version. I will merge nightly into stable once I feel the nightly version is performing well enough.
@@ -24,7 +30,7 @@ Copy this code into Dashboard > General > Custom CSS
 @import url('https://looi-wh.github.io/HintOfGreenCSS/theme.css');
 ```
 or
-#### Tester/Nightly (deprecated):
+#### Tester/Nightly (deprecated, no longer updated):
 ```css
 @import url('https://looi-wh.github.io/HintOfGreenCSS/themeNightly.css');
 ```
@@ -35,18 +41,21 @@ If you are using nginx as a reverse proxy for Jellyfin, replace the "add_header 
 add_header Content-Security-Policy "default-src https: data: blob: http://image.tmdb.org; style-src 'self' 'unsafe-inline' https://looi-wh.github.io ; script-src 'self' 'unsafe-inline' https://www.gstatic.com/cv/js/sender/v1/cast_sender.js https://www.youtube.com blob:; worker-src 'self' blob:; connect-src 'self'; object-src 'none'; frame-ancestors 'self'";
 ```
 
+## Force backdrop for all users
+This theme heavily rely on Jellyfin's backdrop. To forcefully enable backdrop for Jellyfin, visit this [github repo](https://github.com/looi-wh/jellyfin-force-backdrop).
+
 ## Images
 Home Page (With Media Bar Plugin)
-![alt text](1.HomePage(WithMediaBar).png)
+![alt text](./Images/1.HomePage(WithMediaBar).png)
 
 Movie Detail Page
-![alt text](2.ItemDetails.png)
+![alt text](./Images/2.ItemDetails.png)
 
 Movie Detail Page
-![alt text](3.ItemDetails.png)
+![alt text](./Images/3.ItemDetails.png)
 
 Series Detail Page
-![alt text](4.ItemDetails.png)
+![alt text](./Images/4.ItemDetails.png)
 
 Series Session Detail Page
-![alt text](5.Season.png)
+![alt text](./Images/5.Season.png)
