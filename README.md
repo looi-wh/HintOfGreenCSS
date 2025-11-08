@@ -15,7 +15,7 @@ As of **November 2025**, this theme has been updated to support the latest versi
 ## Features
 - Inspired by the palette of a well-known community theme, with its own unique twist
 - Looks especially good with **backdrops enabled**
-- Designed with support for IAmParadox27's Media Bar plugin
+- Designed with support for multiple plugins, including the IAmParadox27's Media Bar and ConfusedPolarBear's Intro Skipper plugins.
 
 > Note: Earlier theme color and video playback variations have been removed or refined to keep the experience consistent and lightweight. There are plans to add colour theming in the near future.
 
@@ -56,3 +56,6 @@ Series Detail Page
 
 Series Session Detail Page
 ![alt text](./Images/5.Season.png)
+
+Skip Intro Theming
+![alt text](./Images/6.MediaPlayback.png)
