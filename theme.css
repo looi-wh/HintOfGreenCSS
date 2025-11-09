@@ -218,8 +218,8 @@ select.emby-select-withcolor.emby-select {
 }
 
 #slides-container {
-  mask-image: linear-gradient(to bottom, black 65%, transparent 95%);
-  -webkit-mask-image: linear-gradient(to bottom, black 65%, transparent 95%);
+  mask-image: linear-gradient(to bottom, black 80%, transparent 98%);
+  -webkit-mask-image: linear-gradient(to bottom, black 80%, transparent 98%);
 }
 
 .card.portraitCard .cardImageContainer::before,
