@@ -17,6 +17,7 @@ video::cue {
   color: #fff;
 }
 
+
 .skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred,
 .skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred.noHomeButtonHeader {
   background: none;
@@ -128,6 +129,7 @@ div.itemExternalLinks.focuscontainer-x,
 div.endsAt.mediaInfoItem,
 div.itemTags.focuscontainer-x,
 div.starRatingContainer.mediaInfoItem,
+div.mediaInfoItem.mediaInfoCriticRating,
 .headerCastButton,
 .pause-button {
   display: none;
