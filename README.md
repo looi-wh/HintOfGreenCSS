@@ -19,7 +19,7 @@ As of **November 2025**, this theme has been updated to support the latest versi
 
 > Note: Earlier theme color and video playback variations have been removed or refined to keep the experience consistent and lightweight. There are plans to add colour theming in the near future.
 
-## Installation
+## Installation (Main)
 There will be two channels, one stable and one nightly. It is always ideal to use the stable version if you are deploying to a large amount of people. But if you like to be risky, feel free to use the nightly version. I will merge nightly into stable once I feel the nightly version is performing well enough.
 Copy this code into Dashboard > General > Custom CSS
 #### Stable:
@@ -31,7 +31,7 @@ or
 ```css
 @import url('https://looi-wh.github.io/HintOfGreenCSS/themeNightly.css');
 ```
-## Flavours
+## Flavours (Colours)
 The default CSS does not have any form of colour theming. This is intentional.
 Add one of the following in addition to the main theme.
 Copy this code into Dashboard > General > Custom CSS
