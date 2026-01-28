@@ -13,8 +13,8 @@ As of **November 2025**, this theme has been updated to support the latest versi
 - Compatible with **Jellyfin 10.11.2** and later
 
 ## Features
-- Inspired by the palette of a well-known community theme, with its own unique twist
-- Looks especially good with **backdrops enabled**
+- Inspired by the palette of a well-known community theme, with its own unique twist.
+- Looks especially good with **backdrops enabled**.
 - Designed with support for multiple plugins, including the IAmParadox27's Media Bar and ConfusedPolarBear's Intro Skipper plugins.
 
 > Note: Earlier theme color and video playback variations have been removed or refined to keep the experience consistent and lightweight. There are plans to add colour theming in the near future.
@@ -30,6 +30,14 @@ or
 #### Tester/Nightly (deprecated, no longer updated):
 ```css
 @import url('https://looi-wh.github.io/HintOfGreenCSS/themeNightly.css');
+```
+## Flavours
+The default CSS does not have any form of colour theming. This is intentional.
+Add one of the following in addition to the main theme.
+Copy this code into Dashboard > General > Custom CSS
+#### Green
+```css
+@import url('https://looi-wh.github.io/HintOfGreenCSS/flavours/originalGreen.css');
 ```
 
 ## Nginx
