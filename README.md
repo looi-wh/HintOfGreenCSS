@@ -31,26 +31,26 @@ or
 ```css
 @import url('https://looi-wh.github.io/HintOfGreenCSS/themeNightly.css');
 ```
-## Flavours (Colours)
-The default CSS does not have any form of colour theming. This is intentional.
-Add one of the following in addition to the main theme.
+## Colours
+The default CSS sticks to the original Jellyfin blue. This is intentional.
+Add any one of the following for a new look.
 Copy this code into Dashboard > General > Custom CSS
 #### Green (ORIGINAL)
 ```css
 @import url('https://looi-wh.github.io/HintOfGreenCSS/flavours/originalGreen.css');
 ```
-#### Pink (NEW)
+#### Pink
 ```css
 @import url('https://looi-wh.github.io/HintOfGreenCSS/flavours/Pink.css');
 ```
 
-## Nginx
+## Nginx (Optional)
 If you are using nginx as a reverse proxy for Jellyfin, replace the "add_header Content-Security-Policy" in your nginx config with this line below
 ```shell
 add_header Content-Security-Policy "default-src https: data: blob: http://image.tmdb.org; style-src 'self' 'unsafe-inline' https://looi-wh.github.io ; script-src 'self' 'unsafe-inline' https://www.gstatic.com/cv/js/sender/v1/cast_sender.js https://www.youtube.com blob:; worker-src 'self' blob:; connect-src 'self'; object-src 'none'; frame-ancestors 'self'";
 ```
 
-## Force backdrop for all users
+## Force backdrop for all users (Optional)
 This theme heavily rely on Jellyfin's backdrop. To forcefully enable backdrop for Jellyfin, visit this [github repo](https://github.com/looi-wh/jellyfin-force-backdrop).
 
 ## Images
