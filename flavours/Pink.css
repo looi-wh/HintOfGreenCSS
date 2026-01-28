@@ -1,0 +1,514 @@
+/* Theming - Pink Palette */
+/* Login Page Colors */
+#loginPage .button-submit {
+    background: #F2BED1;
+}
+#loginPage .emby-input:focus,
+#loginPage .emby-textarea:focus {
+    border-color: #F2BED1;
+}
+#loginPage .inputLabelFocused,
+.selectLabelFocused,
+.textareaLabelFocused {
+    color: white;
+}
+
+/* Input Focus States */
+.emby-input:focus,
+.emby-textarea:focus {
+    border-color: #F2BED1;
+}
+.inputLabelFocused {
+    color: #F8E8EE;
+}
+
+/* Buttons */
+.block {
+    background-color: #F2BED1;
+}
+.button-submit {
+    background: #F2BED1;
+    border-color: #FDCEDF;
+}
+.button-submit:hover {
+    background: rgba(253, 206, 223, 0.8);
+}
+.button-submit:focus {
+    background-color: #F2BED1;
+}
+.button-link {
+    color: #FDCEDF;
+}
+.button-flat:hover {
+    color: #F2BED1;
+}
+.button-accent-flat {
+    color: #FDCEDF !important;
+}
+.raised.emby-button:hover {
+    color: #F2BED1;
+    background: #F9F5F6;
+}
+
+/* Delete Buttons */
+.button-delete,
+#btnDeleteImage {
+    background: #e27802;
+    border-color: #fcecdd;
+}
+.button-delete:hover,
+#btnDeleteImage:hover {
+    background: #fcecdd;
+    color: #e27802;
+}
+
+/* Paper Icon Buttons */
+@media (hover: hover) and (pointer: fine) {
+    .paper-icon-button-light:hover:not(:disabled) {
+        color: #F8E8EE;
+        background-color: rgba(242, 190, 209, 0.2);
+    }
+}
+.paper-icon-button-light:hover {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+/* Card Overlays */
+.cardOverlayFab-primary {
+    background-color: #00000000;
+}
+.cardOverlayButtonIcon {
+    background-color: #00000000 !important;
+}
+.cardOverlayButtonIcon:hover {
+    background-color: rgba(248, 232, 238, 0.5) !important;
+}
+.cardOverlayContainer {
+    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* Default Card Backgrounds */
+.defaultCardBackground1 {
+    background-color: #F2BED1;
+}
+.defaultCardBackground2 {
+    background-color: #FDCEDF;
+}
+.defaultCardBackground3 {
+    background-color: #F8E8EE;
+}
+.defaultCardBackground4 {
+    background-color: #E5A4BB;
+}
+.defaultCardBackground5 {
+    background-color: #F9F5F6;
+}
+
+/* Navigation */
+.navMenuOption:hover {
+    background: rgba(249, 245, 246, 0.2);
+}
+.navMenuOption-selected {
+    background-color: #F8E8EE !important;
+}
+
+/* Checkboxes */
+.checkboxIcon-checked {
+    background-color: #F2BED1;
+}
+.emby-checkbox:checked + span + .checkboxOutline {
+    background-color: #F2BED1;
+}
+.emby-checkbox-label:hover {
+    color: #F8E8EE;
+}
+.emby-checkbox:focus + span + .checkboxOutline {
+    border-color: #E5A4BB;
+}
+
+/* Select Elements */
+.emby-select,
+.emby-select-withcolor {
+    background-color: rgba(249, 245, 246, 0.2);
+}
+
+/* Sliders */
+.mdl-slider-background-lower {
+    background-color: #F8E8EE;
+}
+.mdl-slider::-moz-range-thumb {
+    background: #F8E8EE;
+}
+.mdl-slider::-ms-thumb {
+    background: #F8E8EE;
+}
+.mdl-slider::-webkit-slider-thumb {
+    background: #F8E8EE;
+}
+
+/* Video OSD */
+.iconOsdProgressInner {
+    background: #F8E8EE;
+}
+.videoOsdBottom {
+    background: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0) !important;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)) !important;
+}
+.volume_off {
+    color: #F8E8EE !important;
+}
+
+/* Up Next Dialog */
+.upNextDialog-countdownText {
+    color: #F8E8EE;
+}
+.upNextContainer {
+    background: #F2BED1;
+    border-color: #FDCEDF;
+}
+
+/* Progress Bars */
+.itemProgressBar {
+    background: rgba(0, 0, 0, 0);
+    background: #0000;
+}
+.itemProgressBarForeground,
+.transcodingProgress > div {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.playbackProgress > div {
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+/* Progress Elements */
+progress {
+    background: rgba(0, 0, 0, 0.5) !important;
+    border: 1px solid rgba(248, 232, 238, 0.22);
+}
+progress::-webkit-progress-bar {
+    background: rgba(0, 0, 0, 0.5) !important;
+    border: 0 solid rgba(248, 232, 238, 0.22);
+}
+progress::-moz-progress-bar {
+    background-color: rgba(248, 232, 238, 0.75);
+}
+progress::-webkit-progress-value {
+    background-color: rgba(248, 232, 238, 0.75);
+}
+#divRunningTasks span {
+    color: rgba(248, 232, 238, 0.75) !important;
+}
+.taskProgressOuter {
+    background: rgba(0, 0, 0, 0.5) !important;
+    border: 1px solid rgba(248, 232, 238, 0.22);
+}
+.taskProgressInner {
+    background: rgba(248, 232, 238, 0.75) !important;
+}
+#scheduledTasksPage span {
+    color: rgba(248, 232, 238, 0.75) !important;
+}
+
+/* Progress Ring Spinner */
+.progressring-spiner {
+    border-color: #F8E8EE;
+}
+
+/* Swiper Theme */
+:root {
+    --swiper-theme-color: #F2BED1;
+}
+
+/* Data Role Button Groups */
+div[data-role="controlgroup"] a.ui-btn-active {
+    background: rgba(0, 0, 0, 0.5) !important;
+    color: #fff !important;
+}
+a[data-role="button"]:hover {
+    background: rgba(253, 206, 223, 0.8) !important;
+}
+
+/* Action Sheets */
+.actionSheetMenuItem:hover {
+    background-color: #F2BED1;
+}
+
+/* List Icons */
+.listItemIcon {
+    background-color: #F2BED1 !important;
+}
+.listItemIcon-transparent {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+/* Toast Notifications */
+.toastVisible {
+    color: #F2BED1;
+    background: #F9F5F6;
+}
+
+/* Spinners */
+.mdl-spinner__layer-1 {
+    border-color: #F2BED1;
+}
+.mdl-spinner__layer-2 {
+    border-color: #FDCEDF;
+}
+.mdl-spinner__layer-3 {
+    border-color: #F8E8EE;
+}
+.mdl-spinner__layer-4 {
+    border-color: #F9F5F6;
+}
+
+/* Indicators */
+.countIndicator,
+.fullSyncIndicator,
+.playedIndicator {
+    background: rgba(242, 190, 209, 0.6);
+    color: #fff;
+}
+
+/* Text Buttons */
+.textActionButton:hover {
+    color: #F8E8EE !important;
+}
+.sectionTitleTextButton:hover {
+    color: #F8E8EE !important;
+}
+
+/* Dialogs */
+.dialog {
+    background-color: #F2BED1;
+}
+
+/* Playstate Buttons */
+.playstatebutton-icon-played {
+    color: #FDCEDF;
+}
+.playstatebutton-icon-played:hover {
+    color: #F2BED1;
+}
+
+/* Rating Buttons */
+.ratingbutton-icon-withrating {
+    color: #F2BED1;
+}
+
+/* Stats Labels */
+.playerStats-stat-label {
+    color: #F8E8EE !important;
+}
+
+/* Selection Panels */
+.selectionCommandsPanel {
+    background: #F2BED1;
+}
+.itemSelectionPanel {
+    border-color: #F2BED1;
+}
+
+/* Overview Expand */
+.overview-expand emby-button:hover {
+    color: #F2BED1;
+}
+
+/* Specific Button Hovers */
+#btnShutdown.raised.emby-button:hover,
+#deviceDeleteAll.raised.button-alt.headerHelpButton.emby-button:hover {
+    color: red;
+    background: pink;
+}
+#btnRestartServer.raised.emby-button:hover {
+    color: #e27802;
+    background: #fcecdd;
+}
+.raised.btnRefresh.emby-button:hover {
+    color: #293b5f;
+    background: #dbe6fd;
+}
+.fab.btnAddDevice.submit.sectionTitleButton.emby-button:hover,
+.fab.btnAddProvider.submit.emby-button:hover,
+.fab.btnAddUser.submit.sectionTitleButton.emby-button:hover {
+    color: #21094e;
+    background: #beaee2;
+}
+
+/* Card Footers */
+.sessionCardFooter.cardFooter,
+.visualCardBox-cardFooter {
+    color: #F2BED1;
+    background: #F8E8EE;
+}
+.innerCardFooter.fullInnerCardFooter.innerCardFooterClear {
+    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0);
+}
+
+/* Header */
+.headerTop {
+    background-color: rgba(0, 0, 0, 0) !important;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)) !important;
+}
+
+/* Slider Bubble */
+.sliderBubble {
+    color: #F2BED1;
+    background: #F8E8EE;
+}
+
+/* Subtitle Sync */
+.subtitleSyncContainer {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+/* JSTree */
+.jstree-default .jstree-wholerow-clicked {
+    background: #FDCEDF !important;
+}
+.jstree-wholerow-hovered {
+    background: #FDCEDF !important;
+}
+.metadataSidebarIcon {
+    color: #F2BED1;
+}
+
+/* Backgrounds */
+.collapseContent,
+.formDialogFooter:not(.formDialogFooter-clear),
+.formDialogHeader:not(.formDialogHeader-clear),
+.paperList,
+.visualCardBox {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+/* Text Colors */
+body,
+.emby-body {
+    color: #F9F5F6;
+}
+.secondary {
+    color: #F8E8EE;
+}
+.listItemBodyText {
+    color: #F9F5F6;
+}
+.listItemBodyText.secondary {
+    color: #F8E8EE;
+}
+
+/* Borders */
+.cardBox,
+.paperList {
+    border-color: #FDCEDF;
+}
+.cardScalable {
+    border-color: #F2BED1;
+}
+
+/* Tabs */
+.emby-tab-button-active {
+    color: #F2BED1 !important;
+    border-bottom-color: #F2BED1 !important;
+}
+.emby-tab-button:hover {
+    color: #F8E8EE;
+}
+
+/* Section Tabs */
+.sectionTabs .emby-tab-button-active {
+    background-color: #F2BED1 !important;
+    color: #fff !important;
+}
+.sectionTabs .emby-tab-button {
+    color: #F8E8EE;
+}
+.sectionTabs .emby-tab-button:hover {
+    background-color: rgba(242, 190, 209, 0.3);
+    color: #F9F5F6;
+}
+
+/* Links */
+a {
+    color: #FDCEDF;
+}
+a:hover {
+    color: #F8E8EE;
+}
+
+/* Highlight/Focus States */
+.emby-button.show-focus:focus,
+.paper-icon-button-light.show-focus:focus {
+    background-color: #E5A4BB !important;
+}
+
+/* Active States */
+.buttonActive {
+    color: #E5A4BB !important;
+}
+
+/* Filter Indicator */
+.filterIndicator {
+    background: #E5A4BB;
+}
+
+/* Radio Buttons */
+.mdl-radio__outer-circle {
+    border-color: #FDCEDF;
+}
+.mdl-radio__inner-circle {
+    background-color: #F2BED1;
+}
+.mdl-radio.is-checked .mdl-radio__outer-circle {
+    border-color: #F2BED1;
+}
+
+/* Skip Button */
+.skip-button {
+    background-color: #F8E8EE;
+    color: #F2BED1;
+}
+.skip-button:hover {
+    background-color: #F9F5F6;
+}
+
+/* Now Playing Bar */
+.nowPlayingBar {
+    background: #F2BED1;
+}
+
+/* Drawer */
+.mainDrawer,
+.drawer-open {
+    background-color: #F2BED1;
+    border-color: #FDCEDF;
+}
+
+/* Additional Focus States */
+.listItem:focus {
+    background: #E5A4BB;
+}
+.card:focus .cardBox {
+    border-color: #E5A4BB !important;
+}
+
+/* Make sliderMarkerContainer the same color as video position slider */
+.sliderMarker {
+    background-color: #F8E8EE !important;
+}
+
+/* Change favorite button to bright red */
+#favoriteButton-1 {
+    color: red;
+}
+
+/* Change dialog background to primary theme color */
+.dialog {
+    background-color: #F2BED1;
+}
+
+#popupTitleContainer {
+    background-color: #F2BED1;
+}
