@@ -17,7 +17,7 @@ As of **November 2025**, this theme has been updated to support the latest versi
 - Looks especially good with **backdrops enabled**.
 - Designed with support for multiple plugins, including the IAmParadox27's Media Bar and ConfusedPolarBear's Intro Skipper plugins.
 
-> Note: Earlier theme color and video playback variations have been removed or refined to keep the experience consistent and lightweight. There are plans to add colour theming in the near future.
+> Note: Earlier theme color and video playback variations have been seperated and refined to keep the experience consistent and lightweight. See the colours section for implementing colours for Jellyfin.
 
 ## Installation (Main)
 There will be two channels, one stable and one nightly. It is always ideal to use the stable version if you are deploying to a large amount of people. But if you like to be risky, feel free to use the nightly version. I will merge nightly into stable once I feel the nightly version is performing well enough.
