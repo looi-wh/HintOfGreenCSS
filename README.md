@@ -35,9 +35,13 @@ or
 The default CSS does not have any form of colour theming. This is intentional.
 Add one of the following in addition to the main theme.
 Copy this code into Dashboard > General > Custom CSS
-#### Green
+#### Green (ORIGINAL)
 ```css
 @import url('https://looi-wh.github.io/HintOfGreenCSS/flavours/originalGreen.css');
+```
+#### Pink (NEW)
+```css
+@import url('https://looi-wh.github.io/HintOfGreenCSS/flavours/Pink.css');
 ```
 
 ## Nginx
