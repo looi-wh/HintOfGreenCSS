@@ -63,6 +63,9 @@ Movie Detail Page
 Movie Detail Page
 ![alt text](./Images/3.ItemDetails.png)
 
+Movie Detail Page
+![alt text](./Images/7.ItemDetails.png)
+
 Series Detail Page
 ![alt text](./Images/4.ItemDetails.png)
 
