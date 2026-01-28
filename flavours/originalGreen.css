@@ -364,11 +364,6 @@ a[data-role="button"]:hover {
     background: rgba(0, 0, 0, 0.5);
 }
 
-/* Backdrop */
-.backgroundContainer.withBackdrop {
-    background-color: rgba(47, 93, 98, 0.3);
-}
-
 /* JSTree */
 .jstree-default .jstree-wholerow-clicked {
     background: #5e8b7e !important;
