@@ -39,12 +39,12 @@ Copy this code into Dashboard > General > Custom CSS
 ```css
 @import url('https://looi-wh.github.io/HintOfGreenCSS/flavours/originalGreen.css');
 ```
-![alt text](./Images/8.Green.png)
+![alt text](./Images/10.Green.png)
 #### Pink
 ```css
 @import url('https://looi-wh.github.io/HintOfGreenCSS/flavours/Pink.css');
 ```
-![alt text](./Images/9.Pink.png)
+![alt text](./Images/11.Pink.png)
 
 ## Nginx (Optional)
 If you are using nginx as a reverse proxy for Jellyfin, replace the "add_header Content-Security-Policy" in your nginx config with this line below
