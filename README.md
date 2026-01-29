@@ -9,8 +9,8 @@ Hint of Green is my first attempt at a Jellyfin CSS theme. The goal was to creat
 As of **November 2025**, this theme has been updated to support the latest version of Jellyfin.
 
 ## Compatibility
-- Tested on **Chrome**, **Firefox**, **Safari**, and common Jellyfin applications
-- Compatible with **Jellyfin 10.11.2** and later
+- Tested on **Chrome**, **Firefox**, **Safari**, and common Jellyfin applications.
+- Compatible with **Jellyfin 10.11.2** and later.
 
 ## Features
 - Inspired by the palette of a well-known community theme, with its own unique twist.
