@@ -19,7 +19,7 @@ As of **November 2025**, this theme has been updated to support the latest versi
 
 > Note: Earlier theme color and video playback variations have been seperated and refined to keep the experience consistent and lightweight. See the colours section for implementing colours for Jellyfin.
 
-## Installation (Main)
+## Installation
 There will be two channels, one stable and one nightly. It is always ideal to use the stable version if you are deploying to a large amount of people. But if you like to be risky, feel free to use the nightly version. I will merge nightly into stable once I feel the nightly version is performing well enough.
 Copy this code into Dashboard > General > Custom CSS
 #### Stable:
@@ -35,7 +35,7 @@ or
 The default CSS sticks to the original Jellyfin blue. This is intentional.
 Add any one of the following for a new look.
 Copy this code into Dashboard > General > Custom CSS
-#### Green (ORIGINAL)
+#### Green
 ```css
 @import url('https://looi-wh.github.io/HintOfGreenCSS/flavours/originalGreen.css');
 ```
