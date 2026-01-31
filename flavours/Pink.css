@@ -1,11 +1,11 @@
 /* Theming - Pink Palette */
 /* Login Page Colors */
 #loginPage .button-submit {
-    background: #F2BED1;
+    background: #E5A4BB;
 }
 #loginPage .emby-input:focus,
 #loginPage .emby-textarea:focus {
-    border-color: #F2BED1;
+    border-color: #E5A4BB;
 }
 #loginPage .inputLabelFocused,
 .selectLabelFocused,
@@ -16,7 +16,7 @@
 /* Input Focus States */
 .emby-input:focus,
 .emby-textarea:focus {
-    border-color: #F2BED1;
+    border-color: #E5A4BB;
 }
 .inputLabelFocused {
     color: #F8E8EE;
@@ -24,29 +24,29 @@
 
 /* Buttons */
 .block {
-    background-color: #F2BED1;
+    background-color: #E5A4BB;
 }
 .button-submit {
-    background: #F2BED1;
+    background: #E5A4BB;
     border-color: #FDCEDF;
 }
 .button-submit:hover {
     background: rgba(253, 206, 223, 0.8);
 }
 .button-submit:focus {
-    background-color: #F2BED1;
+    background-color: #E5A4BB;
 }
 .button-link {
     color: #FDCEDF;
 }
 .button-flat:hover {
-    color: #F2BED1;
+    color: #E5A4BB;
 }
 .button-accent-flat {
     color: #FDCEDF !important;
 }
 .raised.emby-button:hover {
-    color: #F2BED1;
+    color: #E5A4BB;
     background: #F9F5F6;
 }
 
@@ -66,7 +66,7 @@
 @media (hover: hover) and (pointer: fine) {
     .paper-icon-button-light:hover:not(:disabled) {
         color: #F8E8EE;
-        background-color: rgba(242, 190, 209, 0.2);
+        background-color: rgba(229, 164, 187, 0.2);
     }
 }
 .paper-icon-button-light:hover {
@@ -90,7 +90,7 @@
 
 /* Default Card Backgrounds */
 .defaultCardBackground1 {
-    background-color: #F2BED1;
+    background-color: #E5A4BB;
 }
 .defaultCardBackground2 {
     background-color: #FDCEDF;
@@ -99,7 +99,7 @@
     background-color: #F8E8EE;
 }
 .defaultCardBackground4 {
-    background-color: #E5A4BB;
+    background-color: #F2BED1;
 }
 .defaultCardBackground5 {
     background-color: #F9F5F6;
@@ -115,16 +115,16 @@
 
 /* Checkboxes */
 .checkboxIcon-checked {
-    background-color: #F2BED1;
+    background-color: #E5A4BB;
 }
 .emby-checkbox:checked + span + .checkboxOutline {
-    background-color: #F2BED1;
+    background-color: #E5A4BB;
 }
 .emby-checkbox-label:hover {
     color: #F8E8EE;
 }
 .emby-checkbox:focus + span + .checkboxOutline {
-    border-color: #E5A4BB;
+    border-color: #F2BED1;
 }
 
 /* Select Elements */
@@ -165,7 +165,7 @@
     color: #F8E8EE;
 }
 .upNextContainer {
-    background: #F2BED1;
+    background: #E5A4BB;
     border-color: #FDCEDF;
 }
 
@@ -218,7 +218,7 @@ progress::-webkit-progress-value {
 
 /* Swiper Theme */
 :root {
-    --swiper-theme-color: #F2BED1;
+    --swiper-theme-color: #E5A4BB;
 }
 
 /* Data Role Button Groups */
@@ -232,12 +232,12 @@ a[data-role="button"]:hover {
 
 /* Action Sheets */
 .actionSheetMenuItem:hover {
-    background-color: #F2BED1;
+    background-color: #E5A4BB;
 }
 
 /* List Icons */
 .listItemIcon {
-    background-color: #F2BED1 !important;
+    background-color: #E5A4BB !important;
 }
 .listItemIcon-transparent {
     background-color: rgba(0, 0, 0, 0) !important;
@@ -245,13 +245,13 @@ a[data-role="button"]:hover {
 
 /* Toast Notifications */
 .toastVisible {
-    color: #F2BED1;
+    color: #E5A4BB;
     background: #F9F5F6;
 }
 
 /* Spinners */
 .mdl-spinner__layer-1 {
-    border-color: #F2BED1;
+    border-color: #E5A4BB;
 }
 .mdl-spinner__layer-2 {
     border-color: #FDCEDF;
@@ -267,7 +267,7 @@ a[data-role="button"]:hover {
 .countIndicator,
 .fullSyncIndicator,
 .playedIndicator {
-    background: rgba(242, 190, 209, 0.6);
+    background: rgba(229, 164, 187, 0.6);
     color: #fff;
 }
 
@@ -281,7 +281,7 @@ a[data-role="button"]:hover {
 
 /* Dialogs */
 .dialog {
-    background-color: #F2BED1;
+    background-color: #E5A4BB;
 }
 
 /* Playstate Buttons */
@@ -289,12 +289,12 @@ a[data-role="button"]:hover {
     color: #FDCEDF;
 }
 .playstatebutton-icon-played:hover {
-    color: #F2BED1;
+    color: #E5A4BB;
 }
 
 /* Rating Buttons */
 .ratingbutton-icon-withrating {
-    color: #F2BED1;
+    color: #E5A4BB;
 }
 
 /* Stats Labels */
@@ -304,15 +304,15 @@ a[data-role="button"]:hover {
 
 /* Selection Panels */
 .selectionCommandsPanel {
-    background: #F2BED1;
+    background: #E5A4BB;
 }
 .itemSelectionPanel {
-    border-color: #F2BED1;
+    border-color: #E5A4BB;
 }
 
 /* Overview Expand */
 .overview-expand emby-button:hover {
-    color: #F2BED1;
+    color: #E5A4BB;
 }
 
 /* Specific Button Hovers */
@@ -339,7 +339,7 @@ a[data-role="button"]:hover {
 /* Card Footers */
 .sessionCardFooter.cardFooter,
 .visualCardBox-cardFooter {
-    color: #F2BED1;
+    color: #E5A4BB;
     background: #F8E8EE;
 }
 .innerCardFooter.fullInnerCardFooter.innerCardFooterClear {
@@ -355,7 +355,7 @@ a[data-role="button"]:hover {
 
 /* Slider Bubble */
 .sliderBubble {
-    color: #F2BED1;
+    color: #E5A4BB;
     background: #F8E8EE;
 }
 
@@ -372,7 +372,7 @@ a[data-role="button"]:hover {
     background: #FDCEDF !important;
 }
 .metadataSidebarIcon {
-    color: #F2BED1;
+    color: #E5A4BB;
 }
 
 /* Backgrounds */
@@ -405,13 +405,13 @@ body,
     border-color: #FDCEDF;
 }
 .cardScalable {
-    border-color: #F2BED1;
+    border-color: #E5A4BB;
 }
 
 /* Tabs */
 .emby-tab-button-active {
-    color: #F2BED1 !important;
-    border-bottom-color: #F2BED1 !important;
+    color: #E5A4BB !important;
+    border-bottom-color: #E5A4BB !important;
 }
 .emby-tab-button:hover {
     color: #F8E8EE;
@@ -419,14 +419,14 @@ body,
 
 /* Section Tabs */
 .sectionTabs .emby-tab-button-active {
-    background-color: #F2BED1 !important;
+    background-color: #E5A4BB !important;
     color: #fff !important;
 }
 .sectionTabs .emby-tab-button {
     color: #F8E8EE;
 }
 .sectionTabs .emby-tab-button:hover {
-    background-color: rgba(242, 190, 209, 0.3);
+    background-color: rgba(229, 164, 187, 0.3);
     color: #F9F5F6;
 }
 
@@ -441,17 +441,17 @@ a:hover {
 /* Highlight/Focus States */
 .emby-button.show-focus:focus,
 .paper-icon-button-light.show-focus:focus {
-    background-color: #E5A4BB !important;
+    background-color: #F2BED1 !important;
 }
 
 /* Active States */
 .buttonActive {
-    color: #E5A4BB !important;
+    color: #F2BED1 !important;
 }
 
 /* Filter Indicator */
 .filterIndicator {
-    background: #E5A4BB;
+    background: #F2BED1;
 }
 
 /* Radio Buttons */
@@ -459,16 +459,16 @@ a:hover {
     border-color: #FDCEDF;
 }
 .mdl-radio__inner-circle {
-    background-color: #F2BED1;
+    background-color: #E5A4BB;
 }
 .mdl-radio.is-checked .mdl-radio__outer-circle {
-    border-color: #F2BED1;
+    border-color: #E5A4BB;
 }
 
 /* Skip Button */
 .skip-button {
     background-color: #F8E8EE;
-    color: #F2BED1;
+    color: #E5A4BB;
 }
 .skip-button:hover {
     background-color: #F9F5F6;
@@ -476,22 +476,22 @@ a:hover {
 
 /* Now Playing Bar */
 .nowPlayingBar {
-    background: #F2BED1;
+    background: #E5A4BB;
 }
 
 /* Drawer */
 .mainDrawer,
 .drawer-open {
-    background-color: #F2BED1;
+    background-color: #E5A4BB;
     border-color: #FDCEDF;
 }
 
 /* Additional Focus States */
 .listItem:focus {
-    background: #E5A4BB;
+    background: #F2BED1;
 }
 .card:focus .cardBox {
-    border-color: #E5A4BB !important;
+    border-color: #F2BED1 !important;
 }
 
 /* Make sliderMarkerContainer the same color as video position slider */
@@ -506,9 +506,9 @@ a:hover {
 
 /* Change dialog background to primary theme color */
 .dialog {
-    background-color: #F2BED1;
+    background-color: #E5A4BB;
 }
 
 #popupTitleContainer {
-    background-color: #F2BED1;
+    background-color: #E5A4BB;
 }
