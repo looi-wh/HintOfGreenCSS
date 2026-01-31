@@ -235,3 +235,10 @@ div.mediaInfoItem.mediaInfoCriticRating.mediaInfoCriticRatingFresh {
 .btnUserRating > span:nth-child(1)  {
   display: none;
 }
+
+button[is="emby-button"].emby-tab-button {
+    background: transparent !important;
+}
+.previewEpisodeDetails {
+    display: none !important;
+}
