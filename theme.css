@@ -318,3 +318,13 @@ button[is="emby-button"].emby-tab-button {
   opacity: 1 !important;
   filter: brightness(0.6) blur(40px);
 }
+
+
+.iconOsd,
+.iconOsdProgressOuter,
+.iconOsdProgressInner {
+  display: none;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
