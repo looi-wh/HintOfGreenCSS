@@ -242,3 +242,79 @@ button[is="emby-button"].emby-tab-button {
 .previewEpisodeDetails {
     display: none !important;
 }
+
+
+/* Make backgrounds transparent */
+.streaming-lookup-container,
+.streaming-lookup-container * {
+  background: transparent !important;
+  background-color: transparent !important;
+  border: none !important;
+}
+
+/* Hide search and settings buttons */
+.elsewhere-search-button,
+.elsewhere-settings-button {
+  display: none !important;
+}
+
+/* Disable ALL hover effects */
+.streaming-lookup-container *:hover {
+  background: transparent !important;
+  background-color: transparent !important;
+  opacity: 1 !important;
+  transform: none !important;
+  transition: none !important;
+  filter: none !important;
+  box-shadow: none !important;
+}
+
+/* Specifically target provider badges */
+.streaming-lookup-container div[style*="inline-flex"]:hover {
+  transform: translateY(0px) !important;
+  box-shadow: none !important;
+}
+
+/* Remove all transitions */
+.streaming-lookup-container * {
+  transition: none !important;
+}
+/* Make reviews transparent */
+.tmdb-reviews-section,
+#pause-screen-close-btn,
+.tmdb-reviews-section * {
+  background: transparent !important;
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* Hide the Read More button */
+.tmdb-review-toggle {
+  display: none !important;
+}
+
+.progress-ends-at,
+.progress-percentage {
+  display: none !important;
+}
+
+#pause-screen-plot {
+  display: none !important;
+}
+
+#pause-screen-details {
+  font-size: 0; /* Hide all child text */
+}
+
+/* Informative instructions to user so user doesnt get confused */
+#pause-screen-details::before {
+  content: "Paused. Click anywhere on the screen to resume playback.";
+  font-size: 1rem;
+}
+
+/* Cool blur for pause screen backdrop */
+#pause-screen-backdrop {
+  opacity: 1 !important;
+  filter: brightness(0.6) blur(40px);
+}
