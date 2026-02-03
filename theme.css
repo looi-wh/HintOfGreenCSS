@@ -316,7 +316,7 @@ button[is="emby-button"].emby-tab-button {
 /* Cool blur for pause screen backdrop */
 #pause-screen-backdrop {
   opacity: 1 !important;
-  filter: brightness(0.6) blur(40px);
+  filter: brightness(0.6);
 }
 
 
