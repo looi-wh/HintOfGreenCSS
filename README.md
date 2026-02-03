@@ -53,7 +53,7 @@ add_header Content-Security-Policy "default-src https: data: blob: http://image.
 ```
 
 ## Force backdrop for all users (Optional)
-This theme heavily rely on Jellyfin's backdrop. To forcefully enable backdrop for Jellyfin, visit this [github repo](https://github.com/looi-wh/jellyfin-force-backdrop).
+This theme heavily rely on Jellyfin's backdrop. To forcefully enable backdrop for all users, visit this [github repo](https://github.com/n00bcodr/JellyfinTweaks).
 
 ## Images
 Home Page (With Media Bar Plugin)
