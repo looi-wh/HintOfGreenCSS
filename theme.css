@@ -328,3 +328,12 @@ button[is="emby-button"].emby-tab-button {
   border: none;
   box-shadow: none;
 }
+
+
+.previewQuickActionContainer button[is="emby-ratingbutton"] .material-icons.favorite {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.previewQuickActionContainer button[is="emby-ratingbutton"][data-isfavorite="true"] .material-icons.favorite {
+  color: #e74c3c !important;
+}
