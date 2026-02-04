@@ -319,7 +319,6 @@ button[is="emby-button"].emby-tab-button {
   filter: brightness(0.6);
 }
 
-
 .iconOsd,
 .iconOsdProgressOuter,
 .iconOsdProgressInner {
@@ -329,11 +328,20 @@ button[is="emby-button"].emby-tab-button {
   box-shadow: none;
 }
 
-
 .previewQuickActionContainer button[is="emby-ratingbutton"] .material-icons.favorite {
   color: rgba(255, 255, 255, 0.7) !important;
 }
 
 .previewQuickActionContainer button[is="emby-ratingbutton"][data-isfavorite="true"] .material-icons.favorite {
   color: #e74c3c !important;
+}
+
+/* Episode Styling */
+.previewPopup .previewEpisodeTitle > span:first-child:not([class])::before {
+    content: "Episode ";
+}
+
+/* Episode Styling */
+.previewPopup .previewEpisodeTitle > span:first-child:not([class])::after {
+    content: " - ";
 }
